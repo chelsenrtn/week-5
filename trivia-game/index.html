@@ -9,17 +9,21 @@
     crossorigin="anonymous">
     </script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="jquery.js"></script>
+
 </head>
+
 <body>
-	<header id="masthead">
+	<header>
 		<div class="container">
 			<h1>Trivia Time!</h1>
 		</div>
 	</header>
-	<div id="main-container" class="container">
-		<section class="main-section">
-			<p class="rules">Rules: You Have 60 seconds to answer 5 questions</p>
-		
+		<section>
+		    <div id="time" class="timer"></div>
+			<div id="main-section">
+			<p class="rules"><h1>Rules: You Have 60 seconds to answer 5 questions</h1></p>
+		    <button type="button" id="start">Start</button>
 			<div id="show-number"></div>
 			
 			<p class="question">1.From Which Country did the French Horn Originate?</p>
@@ -61,14 +65,10 @@
 			<input type="radio" name="5" value="c" id="5c"><label for="5c">North America</label><br>
 			<input type="radio" name="5" value="d" id="5d"><label for="5d">Asia</label><br>
 			</ul>
-			
-			<button type="button" id="submit">Submit Answers</button>
-			
-			<div id="results">
-			Show The Answers!
-			
 			</div>
+		    <button type="button" id="submit">Submit Answers</button>	
 			<button type="button" id="restart">Play Again</button>
+			</div>
 		</section>
 	</div>
 	
