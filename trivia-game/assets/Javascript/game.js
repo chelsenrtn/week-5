@@ -17,6 +17,7 @@ $(document).ready(function(){
 			var c5 = "5";
 		}
 		
+
 		var ct1 = $("input[name=q1]:checked".val() !='a');
     var ct2 = $("input[name=q2]:checked".val() !='b');
     var ct3 = $("input[name=q3]:checked".val() !='c');
@@ -41,50 +42,23 @@ $(document).ready(function(){
 		if (ct4) { $("#catagory1").show("slow"); };
 		if (ct5) { $("#catagory1").show("slow"); };
 
+		});
 
-		$("#closing").show("slow"); 
-
-		$("#start-button").click(function(){
+      $("#start-button").click(function(){
 
 
-				var number = 60;
+				var number= 1:00;
 
 				alert("GO!")
 
 			$("#start-button").on("click", start);
 			$("#submit").on("click", finish);
 			$("#restart").on("click", restart);
-		});
+		}
 
 
-	});
-});
 
-/*
-$('.timer').startTimer({
-  onComplete: function(element){
-    element.addClass('is-complete');
-  },
-  loop: true,
-  loopInterval: 60,
-});
-*/
-function start(){ 
-	counter = setInterval(timer, 60);
-	showMe(".question");
-	showMe(".answers");
-	showMe("#submit");
 }
-
-function timer() {
-	number--;
-	$("#show-number").html("<h2>" + number + "</h2>");
-	if (number ===0){
-		alert("Time's Up!")
-		stop();
-	}
-}
-
 function stop(){
 	clearInterval(counter);
 	$("#results").show();
