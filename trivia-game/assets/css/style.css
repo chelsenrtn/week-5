@@ -51,12 +51,14 @@ ul{
 .timer {
     /* Typography */
   text-align: center;
-  font-size: 120px;
+  font-size: 60px;
   font-family: monospace;
 
   /* Visual */
   background: black;
   color: green;
+  border: 1px solid black;
+  height: 100%;
 }
 
 
