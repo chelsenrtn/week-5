@@ -1,0 +1,19 @@
+<!DOCUMENT html>
+<html>
+<body>
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script> 
+<script type="text/javascript">
+  $.ajax({
+    url:
+    'http://www.omdbapi.com/?t=little+nemo&plot=short&r=json',
+    method: "GET",
+}).done(function(response){
+  console.log(response.Actors);
+  console.log(response.Awards);
+  });
+</script>
+
+
+
+</body>
+</html>
