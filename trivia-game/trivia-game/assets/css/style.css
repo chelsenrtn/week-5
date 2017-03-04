@@ -1,0 +1,72 @@
+body {
+	background: url("../images/background.jpg");
+	font-size: 14px;
+	line-height: 34px;
+}
+* {
+}
+header, section{
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center
+    
+}
+
+
+header h1{
+	padding: 30px;
+	font-size: 40px;
+	font-style: bold;
+	font-weight: bold;
+}
+h2{
+	font-size: 30px;
+}
+ul{
+
+}
+
+#main-section{
+	background-color: pink;
+	opacity: 0.7;
+	border: black, 2px;
+}
+
+.question, .answers{
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container{
+	margin: 30px;
+	border: 2px, solid;
+	background: pink;
+	opacity: 0.7;
+
+}
+.timer {
+ 
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+
+ 
+  background: grey;
+  color: pink;
+  opacity: 0.7;
+  border: 1px solid black;
+  height: 100%;
+}
+
+
+.rules{
+	font-size: 20px;
+	font-style: bold;
+	font-weight: bold;
+
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Triva Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+    </script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>Trivia Time!</h1>
+		</div>
+	</header>
+		<section>
+		    <div id="time" class="timer">01:00</div>
+			<div id="main-section">
+			<p class="rules"><h1>Rules: You Have 60 seconds to answer 5 questions</h1></p>
+		    <button type="button" id="start">Start</button>
+			<div id="show-number"></div>
+			
+			<p class="question">1.From Which Country did the French Horn Originate?</p>
+			<ul class="answers">
+			<input type="radio" name="1" value="a" id="1a"><label for="1a">Germany</label><br>
+			<input type="radio" name="1" value="b" id="1b"><label for="1b">France</label><br>
+			<input type="radio" name="1" value="c" id="1c"><label for="1c">Canada</label><br>
+			<input type="radio" name="1" value="d" id="1d"><label for="1d">England</label><br>
+			</ul>
+			
+			<p class="question">2. What Color Is An Orage Blossom?</p>
+			<ul class="answers">
+			<input type="radio" name="2" value="a" id="2a"><label for="2a">Pink</label><br>
+			<input type="radio" name="2" value="b" id="2b"><label for="2b">Orange</label><br>
+			<input type="radio" name="2" value="c" id="2c"><label for="2c">White</label><br>
+			<input type="radio" name="2" value="d" id="2d"><label for="2d">Red</label><br>
+			</ul>
+			
+			<p class="question">3. How Long Was The 100's Year War?</p>
+			<ul class="answers">
+			<input type="radio" name="3" value="a" id="3a"><label for="3a">80</label><br>
+			<input type="radio" name="3" value="b" id="3b"><label for="3b">105</label><br>
+			<input type="radio" name="3" value="c" id="3c"><label for="3c">116</label><br>
+			<input type="radio" name="3" value="d" id="3d"><label for="3d">100</label><br>
+			</ul>
+			
+			<p class="question">4. What Type Of Animal Is A Prairie Dog?</p>
+			<ul class="answers">
+			<input type="radio" name="4" value="a" id="4a"><label for="4a">Dog</label><br>
+			<input type="radio" name="4" value="b" id="4b"><label for="4b">Rodent</label><br>
+			<input type="radio" name="4" value="c" id="4c"><label for="4c">Marsupial</label><br>
+			<input type="radio" name="4" value="d" id="4d"><label for="4d">Bird</label><br>
+			</ul>
+			
+			<p class="question">5. On What Continent Did Camels First Evolve?</p>
+			<ul class="answers">
+			<input type="radio" name="5" value="a" id="5a"><label for="5a">Australia</label><br>
+			<input type="radio" name="5" value="b" id="5b"><label for="5b">Antarctica</label><br>
+			<input type="radio" name="5" value="c" id="5c"><label for="5c">North America</label><br>
+			<input type="radio" name="5" value="d" id="5d"><label for="5d">Asia</label><br>
+			</ul>
+			</div>
+		    <button type="button" id="submit">Submit Answers</button>	
+			<button type="button" id="restart">Play Again</button>
+			</div>
+		</section>
+	</div>
+	
+	
+</body>
+</html>
